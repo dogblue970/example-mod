@@ -6,11 +6,11 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
+	"id": "FirstMod",
+	"name": "FIrst Mod",
+	"version": "1.0.0",
+	"developer": "Dogblue",
+	"description": "A mod I made to test out the overall Mod Making.",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	}
