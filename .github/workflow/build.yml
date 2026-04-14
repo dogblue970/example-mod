@@ -19,7 +19,7 @@ jobs:
       - name: Build Mod
         uses: geode-sdk/build-geode-mod@main
         with:
-          bindings: geode-sdk/bindings
-          bindings-ref: main
+          # This forces it to use the latest stable version
+          sdk: v3.0.0-beta.1
           combine: true
           target: ${{ matrix.config.target }}
